@@ -1,9 +1,6 @@
-import java.util.Scanner;
 public class HelloApp{
  public static void main(String[] args){
-    Scanner sc = new Scanner(System.in);
-    System.out.println("Enter the name");
-    String userName = sc.nextline();
+    String userName =args[0];
      System.out.println(userName);
     }
 }
